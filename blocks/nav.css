@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav__logo {
+  width: 200px;
+  height: 100px;
+}
+.nav__links {
+  display: flex;
+  gap: 20px;
+  padding-right: 80px;
+  list-style-type: none;
+}
+.nav__link {
+  text-decoration: none;
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+.nav__link:hover {
+  color: blue;
+}
